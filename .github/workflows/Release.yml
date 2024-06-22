@@ -65,7 +65,7 @@ jobs:
       - name: Build for Windows x64
         run: |
           cd src
-          target=win32 npx electron-builder build --win --x64
+          $env:target='win32'; npx electron-builder build --win --x64
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v2
