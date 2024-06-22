@@ -1,8 +1,8 @@
 {
-  "name": "tidalab",
+  "name": "TB.AL",
   "main": "main.js",
   "version": "4.1.10",
-  "author": "tidalab",
+  "author": "HsukqiLee",
   "license": "CC0-1.0",
   "dependencies": {
     "express": "^4.17.1",
@@ -14,9 +14,9 @@
   },
   "build": {
     "electronVersion": "11.0.0",
-    "productName": "tidalab",
-    "appId": "com.tidalab",
-    "copyright": "©2023 tidalab, Inc.",
+    "productName": "TB.AL",
+    "appId": "com.tsinbei.v2b",
+    "copyright": "Copyright ©2024 Tsinbei Tech",
     "directories": {
       "output": "build"
     },
@@ -27,6 +27,10 @@
       },
       {
         "from": "../libs/geo",
+        "to": "./libs/${env.target}-${arch}"
+      },
+      {
+        "from": "../libs/config",
         "to": "./libs/${env.target}-${arch}"
       }
     ],
