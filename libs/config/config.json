@@ -1,0 +1,11 @@
+{
+  "Log": {
+    "Level": "info"
+  },
+  "Api": {
+    "Baseurl": [
+      "https://v2b.tsinbei.cn"
+    ],
+    "Balance": "round"
+  }
+}
