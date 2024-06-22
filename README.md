@@ -6,5 +6,9 @@ V2board 潮汐客户端的解包后文件以及 Electron-builder 构建选项补
 2、在 `res` 路径下放置你的图标文件。  
 3、安装 `Electron-builder`，执行 `bash build.sh`。
 
+## 更新
+
+支持 GitHub Actions 自动构建
+
 ## 声明
 本项目仅用于学习交流，使用者造成的一切问题均由使用者本人负责，与项目发起者、维护者、贡献者无任何关系。
