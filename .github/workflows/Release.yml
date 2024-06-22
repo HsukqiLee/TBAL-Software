@@ -37,13 +37,13 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: macos-arm64
-          path: src/dist/*.dmg
+          path: src/build/tidalab-4.1.10-arm64.dmg
 
       - name: Upload macOS x64 artifact
         uses: actions/upload-artifact@v2
         with:
           name: macos-x64
-          path: src/dist/*.dmg
+          path: src/build/tidalab-4.1.10.dmg
 
   build-windows:
     runs-on: windows-latest
@@ -71,7 +71,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: windows-x64
-          path: src/dist/*.exe
+          path: src/build\tidalab_Setup_4.1.10.exe
 
   release:
     runs-on: ubuntu-latest
