@@ -71,7 +71,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: windows-x64
-          path: src/build\tidalab_Setup_4.1.10.exe
+          path: src/build/*.exe
 
   release:
     runs-on: ubuntu-latest
